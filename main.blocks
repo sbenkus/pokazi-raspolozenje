@@ -1,13 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="WL]TD{b/eo%/I.1WOF@=" x="114" y="-105"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="c5gHdId]2}H`z+=)pHE`"><field name="LEDS">`
-        . . . . . 
-        . # . # . 
-        . . # . . 
-        # . . . # 
-        . # # # .
-        `</field><next><block type="music_playable_play" id="=oRV%nnVp@bO+rovBvpB"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="8#AnrI2P]#8prRiKeBf?"><field name="soundExpression">soundExpression.happy</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="Ml5hY{x2DXCBM%Lv1,?#" x="414" y="-93"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="rDDnK-XYn[/8suqkFa~,"><field name="LEDS">`
-        . . . . . 
-        . # . # . 
-        . . # . . 
-        . # # # . 
-        # . . . #
-        `</field><next><block type="music_playable_play" id="Vuz`0z$eOB(-*~$49Mt1"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="hMd^N3yhz!F|-(*Pcl2j"><field name="soundExpression">soundExpression.sad</field></shadow></value></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Q!b7`S^)#jjWpn7hQ8j3">A</variable><variable id="Im.Q=a4_JPLKcG.y7J^P">B</variable></variables><block type="device_forever" id="AOm?*OtiDZlmJ8gaUQs~" x="73" y="-89"><statement name="HANDLER"><block type="controls_if" id="QMog.=+k-]i$O=7%]X3b"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="T$+ZyQ#*K^[dCeMABpq*"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="$}:$%oJB_qQCh8?|*kd8"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="basic_show_icon" id="Lpwph}D#%{!Jw.H|;ri{"><field name="i">IconNames.Happy</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="|zERNlt*/rPpsUZ%TqfX"><field name="i">IconNames.Asleep</field></block></statement></block></statement></block></xml>
