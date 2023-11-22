@@ -1,7 +1,5 @@
-basic.forever(function () {
-    if (input.buttonIsPressed(Button.A)) {
-        basic.showIcon(IconNames.Happy)
-    } else {
-        basic.showIcon(IconNames.Asleep)
-    }
+input.onGesture(Gesture.Shake, function () {
+    basic.clearScreen()
+    basic.pause(200)
+    basic.showNumber(randint(0, 10))
 })
